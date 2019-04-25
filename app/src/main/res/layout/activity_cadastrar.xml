@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastrarActivity">
+
+    //nome
+
+    <EditText
+        android:id="@+id/campoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+    //email
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+    //telefone
+
+    <EditText
+        android:id="@+id/campoTelefone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="telefone"
+        android:inputType="phone"
+        android:singleLine="true" />
+    //idade
+
+    <EditText
+        android:id="@+id/campoIdade"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="idade"
+        android:inputType="datetime"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/salvarBotao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+
+</LinearLayout>

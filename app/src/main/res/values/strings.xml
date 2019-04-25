@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AulaMobile</string>
+    <string name="exemplo_aula">Yesterday, was Carnaval</string>
+    <string name="labelUser">Usuário</string>
+    <string name="labelSenha">Senha</string>
+    <string name="textButton">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="listar">Listar</string>
+    <string name="editar">Editar</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="title_activity_config">Config</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
